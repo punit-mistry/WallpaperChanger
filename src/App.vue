@@ -25,7 +25,7 @@ const GetText = async () => {
     let config = {
   method: 'post',
   maxBodyLength: Infinity,
-  url: 'https://1978-203-122-54-18.ngrok-free.app/getImage',
+  url: ' https://eea1-2401-4900-1c97-54b0-1d6d-bc54-332e-c0e5.ngrok-free.app/getImage',
   headers: { 
     'Accept': 'application/json'
   }
@@ -58,7 +58,7 @@ const SendText =()=>{
 let config = {
   method: 'post',
   maxBodyLength: Infinity,
-  url: 'https://1978-203-122-54-18.ngrok-free.app/',
+  url: ' https://eea1-2401-4900-1c97-54b0-1d6d-bc54-332e-c0e5.ngrok-free.app/',
   headers: { 
     'Content-Type': 'application/json'
   },
