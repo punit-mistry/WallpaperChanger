@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 let CurrentText= 'Hello World'
 // Define a route to retrieve the text from the image (GET request)
-app.get('/getimage', async (req, res) => {
+app.post('/getimage', async (req, res) => {
     try {
         const text = CurrentText;
         res.status(200).json({ text });
